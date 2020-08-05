@@ -1,8 +1,8 @@
 ---
 layout: "layouts/home.njk"
-title: Simple Blog
-postsHeading: Latest posts
-allPostsText: See all posts
+title: hello there!!
+postsHeading: latest
+allPostsText: see all
 socialImage: ""
 ---
 

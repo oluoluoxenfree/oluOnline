@@ -1,27 +1,37 @@
 {
   "items": [
     {
-      "text": "Home",
+      "text": "home",
       "url": "/",
       "external": false
     },
     {
-      "text": "Posts",
+      "text": "posts",
       "url": "/posts",
       "external": false
     },
     {
-      "text": "Twitter",
-      "url": "https://twitter.com/MikeRiethmuller",
+      "text": "about",
+      "url": "/about",
+      "external": false
+    },
+    {
+      "text": "twitter",
+      "url": "https://twitter.com/oluoluoxenfree",
       "external": true
     },
     {
-      "text": "GitHub",
-      "url": "https://github.com/madebymike/supermaya",
+      "text": "github",
+      "url": "https://github.com/oluoluoxenfree",
       "external": true
     },
     {
-      "text": "Feed",
+      "text": "buy me a coffee",
+      "url": "https://ko-fi.com/oluonline",
+      "external": true
+    },
+    {
+      "text": "rss",
       "url": "/feed.xml",
       "external": true
     }

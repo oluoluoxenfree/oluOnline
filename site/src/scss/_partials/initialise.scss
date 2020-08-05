@@ -78,8 +78,16 @@ img {
   }
 }
 
+@function set-notification-text-color($color) {
+  @if (lightness($color) > 50) {
+    @return #000000; // Lighter backgorund, return dark color
+  } @else {
+    @return #ffffff; // Darker background, return light color
+  }
+}
+
 :focus {
-  outline: 2px dashed $COLOR_MID;
+  outline: 2px dashed #0000ee;
   outline-offset: 2px;
 }
 [tabindex="-1"]:focus {
