@@ -1,0 +1,16 @@
+--- 
+title: ethical technologist. philomath. creator. accessibility advocate. nerd. maximalist.
+---
+
+{% extends 'layouts/base.njk' %}
+
+{# Intro content #}
+
+{% set introHeading %}Posts{% endset %}
+
+{% block content %}
+  <div class="l-stack l-stack--large l-stack--large">
+    {% include "partials/intro.njk" %}
+  </div>
+  {{ content | safe }}
+{% endblock %}

@@ -3,7 +3,7 @@ module.exports = {
   shortDesc:
     "An 11ty starter kit designed to help you add rich features to a site without a complicated build process.",
   url: "",
-  authorEmail: "contact@olu.online",
+  authorEmail: "hello@olu.online",
   authorHandle: "@oluoluoxenfree",
   authorName: "olu",
   postsPerPage: 4,

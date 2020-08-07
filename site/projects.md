@@ -1,5 +1,5 @@
 ---
-layout: layouts/about.njk
+layout: layouts/projects.njk
 ---
 
 I’m Olu. I live in London. Hire me (remotely).
@@ -12,4 +12,4 @@ I’ve been in love with the internet ever since I installed dial-up on the fami
 
 I’ve given talks at Afrotech Fest and Non-Binary in Tech, about web accessibility and community.
 
-Drop me a line on [twitter](https://twitter.com/oluoluoxenfree), or by [email](mailto:hello@olu.online).
+Drop me a line on twitter, or by email.

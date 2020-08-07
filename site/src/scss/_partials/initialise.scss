@@ -78,17 +78,9 @@ img {
   }
 }
 
-@function set-notification-text-color($color) {
-  @if (lightness($color) > 50) {
-    @return #000000; // Lighter backgorund, return dark color
-  } @else {
-    @return #ffffff; // Darker background, return light color
-  }
-}
-
 :focus {
-  outline: 2px dashed #0000ee;
-  outline-offset: 2px;
+  outline: 2px solid #f0008c;
+  outline-offset: 8px;
 }
 [tabindex="-1"]:focus {
   outline: none;

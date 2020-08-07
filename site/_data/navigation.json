@@ -1,18 +1,18 @@
 {
   "items": [
     {
-      "text": "home",
-      "url": "/",
+      "text": "about",
+      "url": "/about",
+      "external": false
+    },
+    {
+      "text": "projects",
+      "url": "/projects",
       "external": false
     },
     {
       "text": "posts",
       "url": "/posts",
-      "external": false
-    },
-    {
-      "text": "about",
-      "url": "/about",
       "external": false
     },
     {
@@ -28,6 +28,11 @@
     {
       "text": "buy me a coffee",
       "url": "https://ko-fi.com/oluonline",
+      "external": true
+    },
+    {
+      "text": "email",
+      "url": "mailto:oluoluoxenfree@gmail.com ",
       "external": true
     },
     {

@@ -8,10 +8,6 @@ const { compileWebpackTargets } = require("../utils/compile-webpack");
 const targets = {
   main: "site/src/js/main.js",
   "service-worker": "site/src/js/service-worker.js",
-  "keystone-comments": "site/src/js/keystone-comments.js",
-  "keystone-claps": "site/src/js/keystone-claps.js",
-  "keystone-login": "site/src/js/keystone-login.js",
-  "keystone-bookmarks": "site/src/js/keystone-bookmarks.js"
 };
 
 // Create an object with the compiled files from each entry defined in targets

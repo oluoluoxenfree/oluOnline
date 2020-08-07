@@ -1,10 +1,8 @@
 $BASE_UNIT: 100px;
 
-@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,900&display=swap");
-
-$FONT_NORMAL: "Barlow", sans-serif;
-$FONT_HEADINGS: Helvetica Neue, Helvetica, Arial, sans-serif;
-$FONT_MONO: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+$FONT_NORMAL: "Poppins", serif;
+$FONT_HEADINGS: "DM Serif Display", serif;
+$FONT_MONO: monospace;
 
 $RATIO: 1.4;
 
@@ -13,9 +11,9 @@ $SCALE--1: 1rem / $RATIO;
 $SCALE-0: 1rem;
 $SCALE-1: 1rem * $RATIO;
 $SCALE-2: 1rem * $RATIO * $RATIO;
-$SCALE-3: 1rem * $RATIO * $RATIO * $RATIO;
-$SCALE-4: 1rem * $RATIO * $RATIO * $RATIO * $RATIO;
-$SCALE-5: 1rem * $RATIO * $RATIO * $RATIO * $RATIO * $RATIO;
+$SCALE-3: 1.5rem;
+$SCALE-4: 2rem;
+$SCALE-5: 1.5rem;
 
 $COLOR_LIGHTER: #eaeaea;
 $COLOR_LIGHT: #ccc; // Do not use for text color
