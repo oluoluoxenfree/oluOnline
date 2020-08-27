@@ -9,7 +9,7 @@ tags:
   - MacOS
   - Ubuntu
   - Windows
-  - eltitism
+  - elitism
 ---
 
 On my first day in my first job I made a joke that didn't go down well with the CEO. Way less terrifying than it sounds!
@@ -30,7 +30,7 @@ Surprise surprise, didn't go down well.
 
 It cuts to the heart of the heart of the way many people see computers. It is a little understanding of the appeal of each approach. It also belies a lot of elitism. Elitism I clung to as a early coder, coding on a beat up X220 thinkpad. It must've cost less than the software on the fancy Macbook Pros everyone else seemed to have. 
 
-Gatekeeping in tech is a real problem, and I hope I don't end up replicating crappy systems whilst attempting to tear them down. Today I upgraded my laptop from 18.04 to 20.04 of Ubuntu, which was a mild struggle, but also a triumph.
+Gate-keeping in tech is a real problem, and I hope I don't end up replicating crappy systems whilst attempting to tear them down. Today I upgraded my laptop from 18.04 to 20.04 of Ubuntu, which was a mild struggle, but also a triumph.
 
 Progress! 
 
