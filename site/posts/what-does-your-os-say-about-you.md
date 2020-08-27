@@ -1,7 +1,7 @@
 ---
 title: What does your operating system say about you? Spoiler - probably nothing
 date: "2020-08-15"
-description: "Operating systems, elitism, and everything (okay,only a few other things)."
+description: "Operating systems, elitism, and everything (okay, only a few other things)."
 tags:
   - tech
   - OS
