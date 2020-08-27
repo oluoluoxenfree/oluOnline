@@ -2,7 +2,7 @@ module.exports = {
   name: "olu online",
   shortDesc:
     "An 11ty starter kit designed to help you add rich features to a site without a complicated build process.",
-  url: "https://olu.online",
+  url: "olu.online",
   authorEmail: "hello@olu.online",
   authorHandle: "@oluoluoxenfree",
   authorName: "olu",

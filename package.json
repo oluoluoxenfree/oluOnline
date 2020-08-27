@@ -29,6 +29,7 @@
     "html-minifier": "^4.0.0",
     "lozad": "^1.14.0",
     "memfs": "^3.1.2",
+    "node-fetch": "^2.6.0",
     "node-sass": "^4.14.0",
     "slugify": "^1.4.0",
     "snarkdown": "^1.2.2",
