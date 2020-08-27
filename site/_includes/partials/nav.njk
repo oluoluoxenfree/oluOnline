@@ -16,11 +16,21 @@
           {% set currentAttribute = ' aria-current="page"' %}
         {% endif %}
 
-        <li>
-          <a href="{{ item.url }}" {{ externalAttribute | safe }} {{ currentAttribute | safe }}>
-            {{ item.text }}
-          </a>
-        </li>
+        {% if item.text === 'twitter'  %}
+          <li>
+            <a href="{{ item.url }}" rel="me">
+              {{ item.text }}
+            </a>
+          </li>
+        {% endif %}
+
+        {% if item.text !== 'twitter'  %}
+          <li>
+            <a href="{{ item.url }}" {{ externalAttribute | safe }} {{ currentAttribute | safe }}>
+              {{ item.text }}
+            </a>
+          </li>
+        {% endif %}
       {% endfor %}
       </ul >
     </{{navLandmark}}>
