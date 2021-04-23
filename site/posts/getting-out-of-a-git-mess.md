@@ -1,6 +1,6 @@
 ---
 title: Getting out of a Git mess - what to do when you run into issues in Git
-date: "2020-08-15"
+date: "2021-04-23"
 description: "The commands and techniques that have always helped me when Git gets into a spot of bother."
 tags:
   - tech
