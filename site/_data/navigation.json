@@ -3,7 +3,19 @@
     {
       "text": "about",
       "url": "/about",
-      "external": false
+      "external": false,
+      "nested": [
+        {
+          "text": "twitter",
+          "url": "https://twitter.com/oluoluoxenfree",
+          "external": true
+        },
+        {
+          "text": "email",
+          "url": "mailto:hello@olu.online ",
+          "external": true
+        }
+      ]
     },
     {
       "text": "projects",
@@ -16,11 +28,6 @@
       "external": false
     },
     {
-      "text": "twitter",
-      "url": "https://twitter.com/oluoluoxenfree",
-      "external": true
-    },
-    {
       "text": "github",
       "url": "https://github.com/oluoluoxenfree",
       "external": true
@@ -28,11 +35,6 @@
     {
       "text": "buy me a coffee",
       "url": "https://ko-fi.com/oluonline",
-      "external": true
-    },
-    {
-      "text": "email",
-      "url": "mailto:hello@olu.online ",
       "external": true
     },
     {
