@@ -1,17 +1,14 @@
 {% set navLandmark = 'nav' if navLocation === 'primary' else
   'div' %}
-
 {% if navigation.items %}
-  <{{navLandmark}}>
+  <{{ navLandmark }}>
     <ul class="l-navigation navigation" aria-label="{{ ariaNavLabel }}">
       {% for item in navigation.items %}
         {% set externalAttribute = '' %}
         {% set currentAttribute = '' %}
-
         {% if item.external %}
           {% set externalAttribute = ' rel="external"' %}
         {% endif %}
-
         {% if navLocation === 'footer' %}
           {% if item.text === 'posts' %}
             <li class="invisible">
@@ -23,73 +20,65 @@
               {% set item = null %}
             </span>
           {% endif %}
-                    {% if item.text === 'rss' %}
+          {% if item.text === 'rss' %}
             <li class="invisible">
               {% set item = '' %}
             </span>
           {% endif %}
-
-        {% if item.nested %}
-          <{{navLandmark}}>
-          <ul class="l-navigation navigation" aria-label="{{ ariaNavLabel }}">
-            {% for item in item.nested %}
-              {% set externalAttribute = '' %}
-              {% set currentAttribute = '' %}
-
-              {% if item.external %}
-                {% set externalAttribute = ' rel="external"' %}
-              {% endif %}
-
-              {% if page.url == item.url %}
-                {% set currentAttribute = ' aria-current="page"' %}
-              {% endif %}
-
-              {% if item.text === 'twitter'  %}
-                <li>
-                  <a href="{{ item.url }}" rel="me">
-                    {{ item.text }}
-                  </a>
-                </li>
-              {% endif %}
-
-              {% if item.text !== 'twitter'  %}
-                <li>
-                  <a href="{{ item.url }}" {{ externalAttribute | safe }} {{ currentAttribute | safe }}>
-                    {{ item.text }}
-                  </a>
-                </li>
-              {% endif %}
-
-            {% endfor %}
-          </ul>
-        </{{navLandmark}}>
-
-
-        {% if page.url == item.url %}
-          {% set currentAttribute = ' aria-current="page"' %}
         {% endif %}
-
-        {% if navLocation === 'primary' %}
+        {% if item.nested %}
+          <{{ navLandmark }}>
+            <ul class="l-navigation navigation" aria-label="{{ ariaNavLabel }}">
+              {% for item in item.nested %}
+                {% set externalAttribute = '' %}
+                {% set currentAttribute = '' %}
+                {% if item.external %}
+                  {% set externalAttribute = ' rel="external"' %}
+                {% endif %}
+                {% if page.url == item.url %}
+                  {% set currentAttribute = ' aria-current="page"' %}
+                {% endif %}
+                {% if item.text === 'twitter' %}
+                  <li>
+                    <a href="{{ item.url }}" rel="me">
+                      {{ item.text }}
+                    </a>
+                  </li>
+                {% endif %}
+                {% if item.text !== 'twitter' %}
+                  <li>
+                    <a href="{{ item.url }}" {{ externalAttribute | safe }} {{ currentAttribute | safe }}>
+                      {{ item.text }}
+                    </a>
+                  </li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          </{{ navLandmark }}>
           {% if page.url == item.url %}
             {% set currentAttribute = ' aria-current="page"' %}
           {% endif %}
-          {% if item.text === 'twitter'  %}
-            <li>
-              <a href="{{ item.url }}" rel="me">
-                {{ item.text }}
-              </a>
-            </li>
-          {% endif %}
-
-          {% if item.text !== 'twitter'  %}
-            <li>
-              <a href="{{ item.url }}" {{ externalAttribute | safe }} {{ currentAttribute | safe }}>
-                {{ item.text }}
-              </a>
-            </li>
+          {% if navLocation === 'primary' %}
+            {% if page.url == item.url %}
+              {% set currentAttribute = ' aria-current="page"' %}
+            {% endif %}
+            {% if item.text === 'twitter' %}
+              <li>
+                <a href="{{ item.url }}" rel="me">
+                  {{ item.text }}
+                </a>
+              </li>
+            {% endif %}
+            {% if item.text !== 'twitter' %}
+              <li>
+                <a href="{{ item.url }}" {{ externalAttribute | safe }} {{ currentAttribute | safe }}>
+                  {{ item.text }}
+                </a>
+              </li>
+            {% endif %}
           {% endif %}
         {% endif %}
       {% endfor %}
-    </ul >
-  </{{navLandmark}}>
+    </ul>
+  </{{ navLandmark }}>
 {% endif %}
